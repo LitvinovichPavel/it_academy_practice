@@ -6,26 +6,26 @@ namespace Lecture._5
     {
         static void Main(string[] args)
         {
-            
+            //Спомощью оператора if-else-if
             int real_hour = Convert.ToInt32(DateTime.Now.Hour);
-            /*
             if (real_hour >= 9 && real_hour < 12)
             {
                 Console.WriteLine("Good morning, guys!");
             }
-            if (real_hour >= 12 && real_hour < 15)
+            else if (real_hour >= 12 && real_hour < 15)
             {
                 Console.WriteLine("Good day, guys!");
             }
-            if (real_hour >= 15 && real_hour < 22)
+            else if (real_hour >= 15 && real_hour < 22)
             {
                 Console.WriteLine("Good evening, guys!");
             }
-            if (real_hour >= 22 && real_hour < 9)
+            else
             {
                 Console.WriteLine("Go to sleep!!!");
             }
-            */
+
+            //с помощью оператора switch
             switch (real_hour)
             {
                 case 9:
