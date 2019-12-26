@@ -79,13 +79,12 @@ namespace Lecture_07.Task2
         static void Task4()
         {
             Console.WriteLine("Задача 4.");
-            /*
-            //Выдает ошибку!!!
-            short box = 3;
-            object obj = box;  //boxing
-            sbyte unBox =(sbyte) obj;  //unboxing
-            //Console.WriteLine(unBox);
-            */
+            
+            short val1 = 3;
+            object obj1 = val1;
+            short val2 = (short)obj1;
+            sbyte val3 = (sbyte)val2;
+            Console.WriteLine(val3);
         }
     }
 }
